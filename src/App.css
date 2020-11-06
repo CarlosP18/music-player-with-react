@@ -16,30 +16,24 @@
 .fa-play-circle{
   font-size: 30px;
 }
-.lowBar{
-  height: 40px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-.container{
-  width: 600px;
-  margin-top: 10px;
-border-radius: 20px;
+.fa-pause-circle{
+  font-size: 30px;
 }
 
-.card{
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+
+
+.card-footer{
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  
 }
-.fa-spotify{
-  color: white;
-  font-size: 45px;
+.container{
+  width: 500px;
+  margin-top: 10px;
+
 }
-.spotify{
-  font-family: 'Erica One', cursive;
-  font-size: 45px;
-  color: white;
-}
+
+
 .slider{
   height: 5px;
 }

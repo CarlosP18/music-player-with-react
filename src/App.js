@@ -5,11 +5,19 @@ import 'bootstrap'
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import './App.css';
 import { ButtonsBar } from './button-bar';
+import { SongList } from './song-list';
 
 
 function App() {
   return (
-    <ButtonsBar />
+    <>
+    <div className="container rounded">
+        <div className="card text-center">
+            <SongList />
+            {/* <ButtonsBar /> */}
+        </div>
+    </div>
+</>
   );
 }
 
