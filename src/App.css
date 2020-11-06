@@ -20,7 +20,10 @@
   font-size: 30px;
 }
 
-
+.card-body{
+  max-height: 500px;
+  overflow: auto;
+}
 
 .card-footer{
   border-bottom-left-radius: 3px;
@@ -42,3 +45,22 @@
   height: 40px;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background:#222326; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: #343A40; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+
+}
